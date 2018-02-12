@@ -67,7 +67,14 @@ padding: 0;
             </ul>
           </form>
       </div>
-
+    <?php wp_nav_menu(array(
+            'theme_location' => 'alan',
+            'container' => 'div',
+            'container_class' => 'collapse navbar-collapse',
+            'container_id' => 'navbarSupportedContent',
+            'items_wrap' => '<ul class="navbar-nav ml-auto text-center">%3$s</ul>',
+            'menu_class' => 'nav-item'
+    )); ?>
 
 
 </nav>
