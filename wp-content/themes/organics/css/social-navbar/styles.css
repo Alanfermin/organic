@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "social-navbar";
+  src:url("fonts/social-navbar.eot");
+  src:url("fonts/social-navbar.eot?#iefix") format("embedded-opentype"),
+    url("fonts/social-navbar.woff") format("woff"),
+    url("fonts/social-navbar.ttf") format("truetype"),
+    url("fonts/social-navbar.svg#social-navbar") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "social-navbar" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="social-icon-"]:before,
+[class*=" social-icon-"]:before {
+  font-family: "social-navbar" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.social-icon-fb:before {
+  content: "\61";
+}
+.social-icon-insta:before {
+  content: "\62";
+}

@@ -1,0 +1,20 @@
+/*!
+Theme Name: Peruvian Organics
+Theme URI: www.organicspe.com
+Author: Underscores.me
+Author URI: http://alanfemrin.com   
+Description: 
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: theme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+.banner1{
+    background: url("<?php bloginfo('template_url'); ?>../image/1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 0;
+    }
+
